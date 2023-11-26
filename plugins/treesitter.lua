@@ -4,6 +4,10 @@ return {
     -- ensure_installed = { "lua" },
     autotag = {
       enable = true,
+      enable_rename = true,
+      -- enable_close = true,
+      -- enable_close_on_slash = true,
+      -- filetypes = { "html", "typescriptreact", "javascriptreact" },
     },
     ensure_installed = {
       "json",
